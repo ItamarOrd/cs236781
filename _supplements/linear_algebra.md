@@ -275,7 +275,7 @@ The inner product induces the standard Euclidean norm on the space of
 column-stack representation of matrices,
 
 $$\| \bb{A} \| = \sqrt{ \langle \bb{A}, \bb{A} \rangle }
-= \sqrt{ \langle \vec(\bb{A}), \vec(\bb{B}) \rangle } = \sqrt{ \sum_{i,j} a_{ij}^2 },$$
+= \sqrt{ \langle \vec(\bb{A}), \vec(\bb{A}) \rangle } = \sqrt{ \sum_{i,j} a_{ij}^2 },$$
 
 known as the *Frobenius norm*. Using the result of the exercise above,
 we can write
@@ -410,8 +410,8 @@ this function to a square matrix $\bb{A}$ as follows:
 
 $$
 \begin{aligned}
-\varphi(\bb{A}) &=& \sum_{i \ge 0} c_i \bb{A}^i = \sum_{i \ge 0} c_i \bb{U}\bb{\Lambda}^p\bb{U}^{-1} \nonumber\\
-&=& \bb{U} \left( \sum_{i \ge 0} c_i  \bb{\Lambda}^p \right) \bb{U}^{-1} =
+\varphi(\bb{A}) &=& \sum_{i \ge 0} c_i \bb{A}^i = \sum_{i \ge 0} c_i \bb{U}\bb{\Lambda}^i\bb{U}^{-1} \nonumber\\
+&=& \bb{U} \left( \sum_{i \ge 0} c_i  \bb{\Lambda}^i \right) \bb{U}^{-1} =
 \bb{U} \left( \sum_{i \ge 0}  \diag\{c_i \lambda_1^i,\dots,c_i \lambda_n^i\} \right) \bb{U}^{-1} \nonumber\\
 &=& \bb{U} \left(
                    \begin{array}{ccc}
