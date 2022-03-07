@@ -92,7 +92,7 @@ interested in the behavior of a function along a line (formally, we say
 that $f(\bb{x})$ is restricted to the one-dimensional linear subspace
 $\mathcal{L} = \{ \bb{x}_0 + \alpha \bb{r} : \alpha \in \RR \}$, where
 $\bb{x}_0$ is some fixed point, and $\bb{r}$ is a fixed direction). Let
-use define a new function of a single variable $\alpha$,
+us define a new function of a single variable $\alpha$,
 $\varphi(\alpha) = f(\bb{x}_0 + \alpha \bb{r})$. Note that we can find
 the first-order derivative of $\varphi$, arriving at the following
 important notion:
